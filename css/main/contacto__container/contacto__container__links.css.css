@@ -1,0 +1,11 @@
+
+.contacto__container__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 15rem;
+    align-items: center;
+    margin-top: 1.5rem
+
+}
+

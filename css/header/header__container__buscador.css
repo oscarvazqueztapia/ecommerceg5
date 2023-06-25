@@ -1,0 +1,12 @@
+.header__container__buscador{
+
+}
+
+@media screen and (max-width: 768px){
+
+    .header__container__buscador{
+        display: none;
+    }
+    
+} 
+    

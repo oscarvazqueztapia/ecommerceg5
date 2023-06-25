@@ -1,0 +1,9 @@
+
+.header__container__btn-login{
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    margin: 0.2rem;
+}
