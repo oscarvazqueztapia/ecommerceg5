@@ -1,10 +1,8 @@
 .contact__container__formulario{
+    
     margin-top: 1.5rem;
     display: flex;
-    flex-direction: column;
-    
-
-    
+    flex-direction: column;    
     
 }
 .contacto__container__nombre{
@@ -27,4 +25,36 @@
     width: 97vw;
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+
+@media screen and (min-width:768px){
+    .contacto__container__nombre{
+        width: 30vw;
+        height: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .contacto__container__email{
+    
+        width: 30vw;
+        height: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .contacto__container__mensaje{
+    
+        width: 30vw;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .contact__container__formulario{
+    
+        margin-top: 1.5rem;
+        display: flex;
+        flex-direction: column;    
+        
+    }
+    
 }

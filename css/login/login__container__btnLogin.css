@@ -1,0 +1,8 @@
+.login__container__btnLogin{
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+}

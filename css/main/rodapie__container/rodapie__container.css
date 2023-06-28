@@ -1,5 +1,7 @@
 footer{
     display: flex;
     align-content: center;
-    background: blue;
+    background: aqua;
+    height: 3rem;
+    
 }

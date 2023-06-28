@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="css\header\header__container.css">
+    <link rel="stylesheet" href="css\header\header__container__btn-login.css">
+    <link rel="stylesheet" href="css\header\header__container__buscador.css">
+    <link rel="stylesheet" href="css\header\header__container__logo.css">
+    <link rel="stylesheet" href="css\banner\banner.css">
+    <link rel="stylesheet" href="css\main\contacto__container\contacto__container.css">
+    <link rel="stylesheet" href="css\main\contacto__container\contacto__container__links.css.css">
+    <link rel="stylesheet" href="css\main\contacto__container\contacto__container.css">
+    <link rel="stylesheet" href="css\main\contacto__container\consolas__container__logo.css">
+    <link rel="stylesheet" href="css\main\contacto__container\contact__container__formulario.css">
+    <link rel="stylesheet" href="css\main\rodapie__container\rodapie__container.css">
+    <link rel="stylesheet" href="css\productos__espacios\productos__espacio__encabezado__titulo.css">
+    <link rel="stylesheet" href="css\productos__espacios\productos__espacio__encabezado.css">
+    <link rel="stylesheet" href="css\productos__espacios\productos__espacio.css">
+    <link rel="stylesheet" href="css\productos__espacios\productos__espacioIndividual.css">
+    <link rel="stylesheet" href="css\login\login__container.css">
+    <link rel="stylesheet" href="css\login\login__container__btnLogin.css">
+    <link rel="stylesheet" href="css\main\contacto__container\contacto__btnEnviar.css">
+    <link rel="stylesheet" href="css\login\login__container__input.css">
+    <link rel="stylesheet" href="css\login\login__container__titulo.css">
+    <link rel="stylesheet" href="css\main\contacto__container\contacto__container__links-formulario.css">
+    <link rel="stylesheet" href="css\main\contacto__container\contact__container__form.css">
+</head>
+<body>
+    <header class="header__container">
+        <div class="logo">
+            <img class = "header__container__logo" src="assets\Logo.png" alt="logo Alurageek">
+        </div>
+    </header>
+    <main>
+        <div class="">
+            <form class="login__container">
+                <div>
+                    <h1 class="login__container__titulo">Iniciar sesion</h1>
+                    <input class="login__container__input" type="email" placeholder="Ingresa tu correo electronico" required>
+                </div>
+                <div><input class="login__container__input" type="text" placeholder="Ingresa tu contraseña" required minlength="6" maxlength="10"  ></div>
+                <div><button type="submit"class="login__container__btnLogin">Entrar</button></div>
+                        
+            </form>
+
+        </div>
+        <section class="contacto__container__links-formulario">
+            <div class="contacto__container">
+                <img class="contacto__container__logo" src="assets\Logo.png" alt="">
+                <nav class="contacto__container__links">
+                    <a href="#">Quienes somos</a>
+                    <a href="#">Politica de privacidad</a>
+                    <a href="">Programa de fidelidad</a>
+                    <a href="#">Nuestras tiendas</a>
+                    <a href="#">Quiero ser franquiciado</a>
+                    <a href="#">Anuncie aqui</a>
+                </nav>
+            </div>
+            <div class="contact__container__form">
+                <form class="contact__container__formulario" action="">
+                    <h1>Habla con nosotros</h1>
+                    <input class="contacto__container__nombre" placeholder="Ingresa tu nombre" type="text" required>
+                    <input class="contacto__container__email" placeholder= "Ingresa tu correo valido" type="email" required>
+                    <textarea class="contacto__container__mensaje" placeholder="Escribe tu mensaje" cols="30" rows="10" required ></textarea>
+                    <button type="submit"class="contacto__btnEnviar">Enviar mensaje</button>
+                </form>    
+            </div>
+            
+
+        </section>
+        
+    </main>
+    <footer class="rodapie__container">
+        <p>Desarrollado por Oscar Vazquez 2023</p>
+    </footer>
+    
+</body>
+</html>

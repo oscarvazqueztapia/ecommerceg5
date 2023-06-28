@@ -1,5 +1,7 @@
 
 .contacto__container__links{
+    
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -9,3 +11,20 @@
 
 }
 
+@media screen and (min-width: 768px) {
+
+.contacto__container__links{
+
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 15rem;
+    align-items: center;
+    margin-top: 1.5rem
+
+   
+    
+}
+
+}
