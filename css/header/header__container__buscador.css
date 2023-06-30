@@ -1,5 +1,18 @@
+
 .header__container__buscador{
 
+    width: 20rem;
+    height: 2rem;
+    margin-top: 0.3rem;
+    border-radius: 10px;
+    
+    
+    
+}
+.header__container__buscador__btnBuscador{
+
+    background: transparent;
+    border: none;
 }
 
 @media screen and (max-width: 768px){
@@ -7,6 +20,10 @@
     .header__container__buscador{
         display: none;
     }
-    
+    .header__container__buscador__btnBuscador{
+
+        background: transparent;
+        border: none;
+    }
 } 
     
