@@ -1,6 +1,8 @@
-@media screen and (ma-width: 767px){
+@media screen and (max-width: 767px){
     .contacto__container__links-formulario{
         display: flex;
+        flex-direction: column;
+        background: aqua;
     }
 }
 
@@ -11,9 +13,9 @@
     .contacto__container__links-formulario{
         
         display: flex;
-        width: 98vw;
+        width: 99vw;
         margin-top: 2rem;
-        justify-content: space-around;
+        justify-content: space-evenly;
         background: aqua;
 
 
