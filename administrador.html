@@ -37,13 +37,13 @@
    
     </header>
     <div class="administrador__formulario">
-        <form class="administrador__formulario__form" action="">
+        <form class="administrador__formulario__form"  data-form >
             <h1>Agrega un nuevo producto</h1>
             <input class="administrador__formulario__form__input" placeholder="Url del producto" type="text" required>
             <input class="administrador__formulario__form__input" placeholder= "Categoria" type="text" required>
             <input class="administrador__formulario__form__input" placeholder= "Nombre del producto" type="text" required>
-            <input class="administrador__formulario__form__input" placeholder= "Precio del producto" type="text" required>
-            <input class="administrador__formulario__form__input" placeholder= "Descripcion del producto" type="text" required>
+            <input class="administrador__formulario__form__input" data-precio placeholder= "Precio del producto" type="number" required />
+            <input class="administrador__formulario__form__input" data-descripcion placeholder= "Descripcion del producto" type="text" required/>
             <button type="submit"class="administrador__formulario__form__btnAgregar">Agregar producto</button>
         </form>    
     </div>    
@@ -76,5 +76,6 @@
 <footer class="rodapie__container">
     <p>Desarrollado por Oscar Vazquez 2023</p>
 </footer>
+
 </body>
 </html>
